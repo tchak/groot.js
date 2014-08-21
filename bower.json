@@ -1,0 +1,26 @@
+{
+  "name": "groot",
+  "version": "0.1.0",
+  "authors": [
+    "tchak <paul@chavard.net>"
+  ],
+  "description": "Functional Frontend Framework",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "loader.js": "~1.0.1",
+    "router.js": "git@github.com:tildeio/router.js.git",
+    "route-recognizer": "~0.1.1",
+    "rsvp": "~3.0.11"
+  }
+}
